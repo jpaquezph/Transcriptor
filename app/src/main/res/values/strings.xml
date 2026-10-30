@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Transcriptor</string>
+
+    <string name="back">Volver</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="retry">Reintentar</string>
+
+    <string name="pick_audio">Elegir audio</string>
+    <string name="pick_from_chat">Desde un chat de WhatsApp</string>
+    <string name="pick_from_chat_desc">Busca el audio en su chat</string>
+    <string name="pick_voice_notes">Notas de voz de WhatsApp</string>
+    <string name="pick_voice_notes_desc">Todas juntas, ordenadas por fecha, sin el nombre del chat</string>
+    <string name="pick_files">Buscar en archivos</string>
+    <string name="pick_files_desc">Descargas, grabadora, Drive y más</string>
+    <string name="whatsapp_hint">En el chat, mantén presionado el audio y elige Compartir (puede estar en el menú ⋮). Luego selecciona Transcriptor.</string>
+    <string name="whatsapp_open">Abrir WhatsApp</string>
+    <string name="rename">Cambiar nombre</string>
+    <string name="rename_label">Nombre</string>
+    <string name="save">Guardar</string>
+    <string name="engine_settings">Motor de voz</string>
+    <string name="empty_title">Todavía no hay transcripciones</string>
+    <string name="empty_hint">Elige un audio, o abre uno en WhatsApp, tócalo con Compartir y selecciona Transcriptor.</string>
+    <string name="needs_engine_title">Falta un paso</string>
+    <string name="needs_engine_body">Para transcribir sin internet hay que descargar el motor de voz. Se hace una sola vez.</string>
+    <string name="needs_engine_action">Descargar motor de voz</string>
+    <string name="delete_confirm">¿Eliminar \"%1$s\" y su audio?</string>
+    <string name="import_failed">No se pudo abrir el archivo.</string>
+
+    <string name="status_queued">En espera</string>
+    <string name="status_transcribing">Transcribiendo</string>
+    <string name="status_percent">Transcribiendo… %1$d%%</string>
+    <string name="status_percent_eta">Transcribiendo… %1$d%% · quedan ~%2$d min</string>
+    <string name="status_cancelled">Cancelada (texto parcial)</string>
+    <string name="status_interrupted">Interrumpida</string>
+
+    <string name="error_unsupported">Este formato de audio no es compatible con tu teléfono.</string>
+    <string name="error_model_missing">No está instalado el motor de voz.</string>
+    <string name="error_generic">No se pudo transcribir este audio.</string>
+    <string name="no_speech">No se detectó voz en este audio.</string>
+
+    <string name="copy">Copiar</string>
+    <string name="copied">Texto copiado</string>
+    <string name="share">Compartir</string>
+    <string name="export">Exportar</string>
+    <string name="export_title">Exportar transcripción</string>
+    <string name="export_timestamps">Incluir marcas de tiempo</string>
+    <string name="export_save">Guardar</string>
+    <string name="export_saved">Archivo guardado</string>
+    <string name="export_failed">No se pudo exportar.</string>
+    <string name="format_pdf">PDF</string>
+    <string name="format_docx">Word (DOCX)</string>
+    <string name="format_txt">Texto (TXT)</string>
+    <string name="format_srt">Subtítulos (SRT)</string>
+    <string name="share_chooser">Compartir transcripción</string>
+
+    <string name="play">Reproducir</string>
+    <string name="pause">Pausar</string>
+    <string name="rewind_seconds">Atrasar %1$d segundos</string>
+    <string name="forward_seconds">Adelantar %1$d segundos</string>
+    <string name="speed_half">0,5x</string>
+    <string name="speed_normal">1x</string>
+    <string name="speed_double">2x</string>
+
+    <string name="engine_intro">La transcripción se hace dentro del teléfono: tus audios no se envían a ningún servidor. Solo necesitas internet para esta descarga.</string>
+    <string name="model_base">Rápido</string>
+    <string name="model_base_desc">Buena calidad. Recomendado para la mayoría de los teléfonos.</string>
+    <string name="model_small">Preciso</string>
+    <string name="model_small_desc">Mejor calidad, sobre todo con ruido. Tarda unas 3 veces más.</string>
+    <string name="model_live">En vivo</string>
+    <string name="model_live_desc">Necesario para Transcribir en vivo: muestra el texto mientras hablas. Modelo Kroko de Banafo (CC-BY-SA).</string>
+    <string name="model_installed">Instalado</string>
+    <string name="model_size">%1$d MB</string>
+    <string name="model_download">Descargar</string>
+    <string name="model_active">En uso</string>
+    <string name="model_use">Usar</string>
+    <string name="model_downloading">Descargando… %1$d%%</string>
+    <string name="model_no_space">No hay espacio suficiente: se necesitan %1$d MB libres.</string>
+    <string name="model_download_failed">Falló la descarga. Revisa tu conexión y vuelve a intentar; continuará desde donde quedó.</string>
+    <string name="spanish_only">Idioma: español (incluye acentos de Latinoamérica)</string>
+
+    <string name="record">Transcribir en vivo</string>
+    <string name="stop">Detener</string>
+    <string name="live_recording">Grabando %1$s</string>
+    <string name="live_finishing">Terminando de transcribir…</string>
+    <string name="live_hint">El texto aparece mientras hablas.</string>
+    <string name="live_loading">Ya estás grabando. El texto aparecerá en unos segundos, sin perder nada.</string>
+    <string name="live_title">Grabación %1$s</string>
+    <string name="mic_needed">Para transcribir en vivo hay que permitir el uso del micrófono.</string>
+    <string name="notif_live">Grabando y transcribiendo</string>
+
+    <string name="notif_channel">Transcripción en curso</string>
+    <string name="notif_preparing">Preparando…</string>
+</resources>
